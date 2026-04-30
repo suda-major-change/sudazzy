@@ -15,8 +15,8 @@ theme:
     code: JetBrains Mono
   palette: 
     - scheme: default # 默认日间模式
-      primary: blue # 上方的
-      accent: blue # 链接等可交互元件的高亮色
+      primary: teal # 上方的
+      accent: teal # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
@@ -42,7 +42,7 @@ theme:
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
 repo_url: https://github.com/Xuxu0927/sudazzy # 右上角点击跳转的链接
-repo_name: sudazzy # 右上角的名字
+repo_name: 苏大转专业指南 # 右上角的名字
 ## [bottom-left corner]
 copyright: Copyright &copy; 2024 gis-xh # 左下角的版权声明
 ## [bottom-right corner]
