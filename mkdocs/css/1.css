@@ -38,12 +38,12 @@ img {
     background: transparent; /* 去除背景色 */
     
     /* 调整排版：回归左对齐，去除由于背景块引入的负边距 */
-    text-align: center; 
+    text-align: left; 
     margin: 40px 0 24px 0; /* 上下间距调整 */
     padding: 0;
     
     /* 字体调整：变小，变色 */
-    font-size: 1.9rem; /* 原 2.2rem -> 1.9rem */
+    font-size: 1.5rem; /* 原 2.2rem -> 1.9rem */
     font-weight: 800;  /* 保持粗体 */
     line-height: 1.3;
     
