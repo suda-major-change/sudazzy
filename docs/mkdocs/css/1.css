@@ -1,0 +1,126 @@
+/* Custom styles to override MkDocs defaults and enhance theme */
+
+article ul {
+    list-style-type: disc !important;
+}
+
+article ul ul {
+    list-style-type: circle !important;
+}
+
+article ul ul ul {
+    list-style-type: circle !important;
+}
+
+article ul ul ul ul {
+    list-style-type: circle !important;
+}
+
+
+
+/* Center all images */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/* ==========================================
+   一级标题 (H1)：极简风格 - 纯文字 + 紧凑
+   (去除了背景块、阴影和 3D 效果)
+   ========================================== */
+.md-typeset h1 {
+    /* 重置定位和变换 */
+    position: relative;
+    transform: none;
+    box-shadow: none;
+    background: transparent; /* 去除背景色 */
+    
+    /* 调整排版：回归左对齐，去除由于背景块引入的负边距 */
+    text-align: center; 
+    margin: 40px 0 24px 0; /* 上下间距调整 */
+    padding: 0;
+    
+    /* 字体调整：变小，变色 */
+    font-size: 1.9rem; /* 原 2.2rem -> 1.9rem */
+    font-weight: 800;  /* 保持粗体 */
+    line-height: 1.3;
+    
+    /* 颜色：因为没了背景，必须从白色改为主题色或深色，否则看不见 */
+    color: var(--md-primary-fg-color); 
+    
+}
+
+/* 去除 H1 之前的悬浮 3D 效果，改为简单的颜色加深或无效果 */
+.md-typeset h1:hover {
+    transform: none;
+    box-shadow: none;
+    /* 只有轻微的颜色变化 */
+    color: var(--md-primary-fg-color--dark);
+}
+
+/* ==========================================
+   二级标题 (H2)：精致下划线 - 尺寸缩小
+   (保持了你的“胶囊”滑块动画)
+   ========================================== */
+.md-typeset h2 {
+    position: relative;
+    margin: 32px 0 16px; /* 间距稍微收紧 */
+    padding: 0 0 8px 0;
+    
+    font-size: 1.25rem; /* 原 1.75rem -> 1.25rem */
+    font-weight: 700;
+    color: var(--md-default-fg-color); /* 默认深灰 */
+    letter-spacing: -0.01em;
+    
+    background: transparent; 
+    border: none;
+    /* 底部细灰线作为轨道 */
+    border-bottom: 1px solid var(--md-default-fg-color--lightest); 
+}
+
+/* H2 的左侧装饰元素（胶囊滑块） */
+.md-typeset h2::before {
+    content: "";
+    position: absolute;
+    bottom: -1px; /* 压在底线上 */
+    left: 0;
+    width: 40px; /* 初始宽度随字体缩小稍微变短 */
+    height: 3px; /* 高度稍微变细 */
+    border-radius: 3px;
+    
+    background: linear-gradient(
+        90deg, 
+        var(--md-primary-fg-color) 0%, 
+        var(--md-accent-fg-color) 100%
+    );
+    transition: width 0.3s ease;
+}
+
+/* H2 悬浮交互 */
+.md-typeset h2:hover {
+    color: var(--md-primary-fg-color);
+}
+.md-typeset h2:hover::before {
+    width: 100%;
+}
+
+/* ==========================================
+   移动端适配
+   ========================================== */
+@media (max-width: 600px) {
+    .md-typeset h1 {
+        font-size: 1.5rem; /* 移动端更小 */
+        margin: 24px 0 16px;
+        padding-bottom: 8px;
+    }
+    
+    .md-typeset h2 {
+        font-size: 1.25rem; /* 移动端更小 */
+        margin-top: 24px;
+    }
+}
+
+
+
