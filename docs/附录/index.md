@@ -18,6 +18,10 @@
 
 
 
-## 培养方案
+## 网站
 
 [培养方案](https://jwc.suda.edu.cn/8638/list.htm)
+
+http://jwyy.suda.edu.cn/教务预约系统  看成绩单、排名等
+
+http://file.suda.edu.cn/苏州大学校内通知
