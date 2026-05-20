@@ -1,3 +1,5 @@
+# 附录
+
 ## 转专业方案与名单公示
 
  [2023苏州大学转专业工作方案.doc](2023苏州大学转专业工作方案.doc) 
@@ -22,6 +24,6 @@
 
 [培养方案](https://jwc.suda.edu.cn/8638/list.htm)
 
-http://jwyy.suda.edu.cn/教务预约系统  看成绩单、排名等
+[教务预约系统  看成绩单、排名等](http://jwyy.suda.edu.cn/)
 
-http://file.suda.edu.cn/苏州大学校内通知
+[苏州大学校内通知](http://file.suda.edu.cn/)

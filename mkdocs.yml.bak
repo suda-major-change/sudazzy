@@ -21,8 +21,8 @@ theme:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
-      primary: black
-      accent: black
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
@@ -110,10 +110,12 @@ extra_css:
 nav:
     - 首页: index.md
     - 转专业选择:
+        - 首页: 转专业选择/index.md
         - 资格限制: 转专业选择/资格限制.md
         - 为什么转专业: 转专业选择/为什么转专业.md
         - 转什么专业: 转专业选择/转什么专业.md
         - 如何准备: 转专业选择/如何准备.md
+        - 经验分享1: 转专业选择/经验分享1.md
     - 转专业过程:
         - 首页: 转专业过程/index.md
         - 转专业流程:
@@ -160,12 +162,13 @@ nav:
             - 概况: 转专业过程/文学院/概况.md
             - 经验分享: 转专业过程/文学院/经验分享.md
     - 转专业之后:
+        - 首页: 转专业之后/index.md
         - 成功之后:
             - 成功之后: 转专业之后/成功之后/成功之后.md
             - 补修相关: 转专业之后/成功之后/补修相关.md
         - 失败之后: 转专业之后/失败之后.md
     - 附录:
         - 首页: 附录/index.md
+        - 一些可能有价值的建议: 附录/一些可能有价值的建议.md
         - 杂项: 附录/杂项.md
         - 后记: 附录/后记.md
-        - 一些可能有价值的建议: 附录/一些可能有价值的建议.md
