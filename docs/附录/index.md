@@ -27,9 +27,11 @@
 
 
 ## 网站
+[苏州大学转专业申请网站](http://zzysq.jwb.suda.edu.cn/)
 
 [培养方案](https://jwc.suda.edu.cn/8638/list.htm)
 
 [教务预约系统  看成绩单、排名等](http://jwyy.suda.edu.cn/)
 
 [苏州大学校内通知](http://file.suda.edu.cn/)
+
